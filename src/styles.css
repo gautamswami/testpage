@@ -1,0 +1,44 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .test {
+    display: none;
+    /* height: 0; */
+    transition: 0.3s ease-in-out;
+    overflow: hidden;
+    /* position: relative; */
+  }
+  .showtest {
+    display: block;
+    /* height: 100%; */
+    transition: 0.3s ease-in-out;
+  
+  }
+  .close {
+    display: none;
+  }
+  .showclose {
+    display: block;
+  }
+  .closebtn {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .testbtn {
+    /* height: 0; */
+    display: none;
+    overflow: hidden;
+  }
+  .showtestbtn {
+    /* height: auto; */
+   display: block;
+    background: white;
+    border:none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  
